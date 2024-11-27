@@ -21,7 +21,7 @@ public class BirdScript : MonoBehaviour
         {
             myRigidBody.linearVelocity = Vector2.up * flapStrength;
         }
-        if (myRigidBody.position.y < -28 || myRigidBody.position.y > 28)
+        if (myRigidBody.position.y < -32 || myRigidBody.position.y > 32)
         {
             logic.gameOver();
         }
